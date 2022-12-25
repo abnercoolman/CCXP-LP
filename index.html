@@ -13,26 +13,28 @@
 
   <!-- Cabeçalho -->
   <header>
-    <img src="./assets/logoCCXP.png" />
+    <img src="./assets/logoCCXP.png" alt="Logotipo CCXP 2022" />
   </header>
 
   <!-- Corpo do texto -->
-  <main>
+  <section id="descr_ccxp"> <!-- Seção: Texto + Cronometro + Vídeo -->
 
-    <section id="descr_ccxp">
+    <div id="descr_text"> <!-- Texto -->
+
       <h1>REVIVA O ÉPICO</h1>
       <h2>DE 01 A 04 DE DEZEMBRO</h2>
       <p>Você consegue sentir? É aquela sensação de finalmente poder falar em voz alta: "estamos em casa". Sim, em
         dezembro de 2022, teremos a volta da CCXP física. Mas não será qualquer CCXP, vai ser a maior de todos os
         tempos. Prepare-se para visitar seus universos favoritos, explorar o Artists' Valley, se emocionar nos
         auditórios e encontrar aventuras épicas a cada passo pelos nossos corredores.</p>
-    </section>
 
-    <section id="cronometro">
+    </div>
+
+    <div id="cronometro"> <!-- Cronometro -->
 
       <div class="timer">
         <div>
-          <h1 id="dia">03</h1>
+          <h1 id="dia">03D</h1>
         </div>
 
         <div>
@@ -48,26 +50,33 @@
         </div>
       </div>
 
-      <h2>PARA A MAIOR CCXP DE TODOS OS TEMPOS</h2>
+      <div> <!-- Texto cronometro -->
+        <h2>PARA A MAIOR CCXP DE TODOS OS TEMPOS</h2>
+      </div>
 
-      <video controls loop><source src="./assets/quinnFrame.mp4" type="video/mp4"></video>
+      <div> <!-- Video -->
+        <video autoplay muted controls loop>
+          <source src="./assets/quinnFrame.mp4" type="video/mp4">
+        </video>
+      </div>
 
-    </section>
+    </div>
 
-  </main>
+  </section>
 
-  <footer>
 
-    <div id="descr_foot">AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE!</div>
+  <footer> <!-- Ingressos -->
+
+    <div id="descr_foot">AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE!</div> <!-- Texto ingressos -->
 
     <nav>
-      <div id="card">
-        <img src="./assets/foot1.png">
-        <img src="./assets/foot2.png">
-        <img src="./assets/foot3.png">
-        <img src="./assets/foot4.png">
+      <div id="tickets_card"> <!-- Cartões de Ingresso -->
+        <img src="./assets/qui.png">
+        <img src="./assets/sex.png">
+        <img src="./assets/sab.png">
+        <img src="./assets/dom.png">
       </div>
-      <div id="botao">
+      <div id="botao"> <!-- Botão de compra -->
         <button>GARANTA O SEU!</button>
       </div>
     </nav>
