@@ -71,10 +71,10 @@
 
     <nav>
       <div id="tickets_card"> <!-- Cartões de Ingresso -->
-        <img src="./assets/qui.png">
-        <img src="./assets/sex.png">
-        <img src="./assets/sab.png">
-        <img src="./assets/dom.png">
+        <img src="./assets/qui.png" onmouseover="highlightCard('#quinta')" onmouseout="highlightCard('#quinta')" id="quinta">
+        <img src="./assets/sex.png" onmouseover="highlightCard('#sexta')" onmouseout="highlightCard('#sexta')" id="sexta">
+        <img src="./assets/sab.png" onmouseover="highlightCard('#sabado')" onmouseout="highlightCard('#sabado')" id="sabado">
+        <img src="./assets/dom.png" onmouseover="highlightCard('#domingo')" onmouseout="highlightCard('#domingo')" id="domingo">
       </div>
       <div id="botao"> <!-- Botão de compra -->
         <button>GARANTA O SEU!</button>
@@ -83,7 +83,8 @@
 
   </footer>
 
-  <script src="./index.js"></script>
+  <script src="./cronometro.js"></script>
+  <script src="./main.js"></script>
 </body>
 
 </html>
